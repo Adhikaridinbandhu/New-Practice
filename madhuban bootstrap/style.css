@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.form-wrapper {
+  margin-top: 20px;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.form-wrapper label {
+  font-weight: 600;
+}
+table {
+  margin-top: 50px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  /* border-radius: 6px; */
+}
