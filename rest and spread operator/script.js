@@ -25,3 +25,22 @@ const obj1 = { a: 1, b: 2 };
 const obj2 = { b: 3, c: 4 };
 const combinedObj = { ...obj1, ...obj2 };
 console.log(combinedObj);
+
+// Rest Operator
+
+//function parameter
+
+function total(...nums) {
+  return nums.reduce((acc, num) => acc + num, 0);
+}
+console.log(total(1, 2, 3, 4, 5));
+
+// array destructing
+const fruits = ["mango", "banana", "papaya", "gauva", "pear"];
+const [first, ...rest] = fruits;
+console.log(first, rest);
+
+// object destructing
+
+const { a, ...others } = { a: 1, b: 2, c: 3 };
+console.log(a, others);
