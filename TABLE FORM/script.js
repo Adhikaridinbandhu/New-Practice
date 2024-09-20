@@ -37,7 +37,13 @@ function displayData() {
   let html = "";
   submittedData.forEach(function (ele, index) {
     html += `
-        <div class="card-body" id="card-body">
+    <div class="card" style="width: 18rem" id="card-body">
+        <img
+          src="https://images.unsplash.com/photo-1719937206498-b31844530a96?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D"
+           class="card-img-top"
+          alt="image data"
+        />
+        <div class="card-body">
           <p class="card-text"><strong>Name: </strong>${ele.enteredName}</p>
           <p class="card-text"><strong>Address: </strong>${ele.enteredAddress}</p>
           <p class="card-text"><strong>Email: </strong>${ele.enteredEmail}</p>
