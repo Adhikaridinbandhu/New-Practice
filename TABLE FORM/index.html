@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form class="container form-wrapper">
+    <form class="container form-wrapper" id="registrationForm">
       <h1>Personal Details</h1>
       <div class="mb-3">
         <label for="exampleInputName1" class="form-label">Name</label>
@@ -52,7 +52,9 @@
           aria-describedby="phoneHelp"
         />
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary" id="btn-submit">
+        Submit
+      </button>
     </form>
     <div class="card-wrapper container">
       <div class="card" style="width: 18rem">
@@ -61,7 +63,7 @@
           class="card-img-top"
           alt="image data"
         />
-        <div class="card-body">
+        <div class="card-body" id="card-body">
           <p class="card-text"><strong>Name: </strong>Din Bandhu Adhikari</p>
           <p class="card-text"><strong>Address: </strong>Galyang</p>
           <p class="card-text"><strong>Email: </strong>abcdjpt@gmail.com</p>

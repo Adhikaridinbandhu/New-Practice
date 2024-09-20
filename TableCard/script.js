@@ -1,6 +1,7 @@
 let formData = document.getElementById("registrationForm");
 let tableBody = document.getElementById("table-body");
 let nameElement = document.getElementById("name");
+console.log(nameElement);
 let addressElement = document.getElementById("address");
 let contactElement = document.getElementById("phone");
 let emailElement = document.getElementById("email");
